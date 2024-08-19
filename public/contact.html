@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="shortcut icon"
+      href="/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Found Souls for Christ</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="flex justify-between bg-blue-600 h-16 items-center p-14 relative"
+      >
+        <img class="w-14 h-14 rounded-full" src="/img/logo.jpg" alt="logo" />
+        <ul class="md:flex gap-4 text-white hidden">
+          <li class="transition ease-linear duration-300 hover:text-gray-300">
+            <a href="/public/index.html">Home</a>
+          </li>
+          <li class="transition ease-linear duration-300 hover:text-gray-300">
+            <a href="/public/about.html">About us</a>
+          </li>
+          <li class="transition ease-linear duration-300 hover:text-gray-300">
+            <a href="/public/index.html#events">Events</a>
+          </li>
+
+          <li class="transition ease-linear duration-300 hover:text-gray-300">
+            <a href="/public/contact.html">Contact us</a>
+          </li>
+        </ul>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="2em"
+          height="2em"
+          viewBox="0 0 32 32"
+          id="open"
+          class="md:hidden flex cursor-pointer transition ease-linear duration-300"
+        >
+          <path
+            fill="none"
+            stroke="white"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M5 8h22M5 16h22M5 24h22"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="2em"
+          height="2em"
+          viewBox="0 0 24 24"
+          class="md:hidden hidden cursor-pointer transition ease-linear duration-300"
+          id="close"
+        >
+          <path
+            fill="white"
+            d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4"
+          />
+        </svg>
+        <ul
+          class="md:hidden hidden flex-col text-black absolute right-0 top-28 w-1/2 shadow-md z-10 bg-white"
+          id="open-box"
+        >
+          <li
+            class="py-4 px-4 cursor-pointer hover:bg-blue-300 transition ease-linear duration-300 hover:text-white"
+          >
+            <a href="/public/index.html">Home</a>
+          </li>
+          <li
+            class="py-4 px-4 cursor-pointer hover:bg-blue-300 transition ease-linear duration-300 hover:text-white"
+          >
+            <a href="/public/about.html">About us</a>
+          </li>
+          <li
+            class="py-4 px-4 cursor-pointer hover:bg-blue-300 transition ease-linear duration-300 hover:text-white"
+          >
+            <a href="/public/index.html#events">Events</a>
+          </li>
+
+          <li
+            class="py-4 px-4 cursor-pointer hover:bg-blue-300 transition ease-linear duration-300 hover:text-white"
+          >
+            <a href="/public/contact.html">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="bg-slate-300 py-7 px-7">
+        <h1 class="text-2xl uppercase text-gray-950" data-aos="zoom-in-right">
+          Contact Us
+        </h1>
+      </div>
+    </header>
+    <main>
+      <section class="bg-blue-100">
+        <div class="sm:flex">
+          <img
+            src="/img/contact.jpg"
+            alt="a pciture of a house"
+            class="sm:w-1/2"
+            data-aos="fade-right"
+          />
+          <div class="sm:w-1/2" data-aos="fade-left">
+            <h2
+              class="text-center text-2xl mt-9 mb-9 md:text-4xl md:text-center uppercase"
+            >
+              Our Contact details
+            </h2>
+            <div class="pb-9 sm:mb-0">
+              <div class="flex items-center gap-x-4 pl-9 mb-5">
+                <img
+                  src="/img/email.gif"
+                  alt="An email gif"
+                  class="w-9 rounded-full"
+                />
+                <p class="font-bold">foundsouls@gmail.com</p>
+              </div>
+              <div class="flex items-center gap-x-4 pl-9 mb-5">
+                <img
+                  src="/img/home.gif"
+                  alt="A home gif"
+                  class="w-9 rounded-full"
+                />
+                <p class="font-bold">Nii Afotey Brutu II Avenue 193</p>
+              </div>
+              <div class="flex items-center gap-x-4 pl-9 mb-5">
+                <img
+                  src="/img/contact_gif.gif"
+                  alt="A contact gif"
+                  class="w-9 rounded-full"
+                />
+                <p class="font-bold">+233 55 868 3304</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 class="mt-9 text-center text-2xl mb-9" data-aos="fade-up">
+          Get in touch with us
+        </h1>
+        <form class="w-11/12 mx-auto sm:max-w-md" data-aos="fade-up">
+          <div class="mb-5 sm:flex sm:w-full sm:gap-x-2">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Your Name"
+              class="border p-2 w-full outline-none bg-gray-100 mb-5 sm:w-1/2"
+            />
+            <div class="sm:w-1/2">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Your Email"
+                class="border p-2 w-full outline-none bg-gray-100"
+              />
+            </div>
+          </div>
+
+          <div>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Your Phone Number (optional)"
+              class="border p-2 w-full outline-none bg-gray-100 mb-5"
+            />
+          </div>
+
+          <div>
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Message"
+              class="bg-gray-100 w-full py-5 px-2 mb-5"
+            ></textarea>
+          </div>
+          <div class="text-center mb-9">
+            <button
+              type="submit"
+              class="py-2 bg-blue-500 px-5 font-lg text-white hover:bg-blue-300"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="bg-blue-600 py-14 px-8 text-white">
+      <div class="flex gap-10 mb-12">
+        <!-- side 1 -->
+        <div class="text-xl">
+          <h1 class="text-2xl mb-5">Contact Us</h1>
+          <p class="text-sm text-gray-100 mb-3">Phone: +233 55 868 3304</p>
+          <p class="text-sm text-gray-100 mb-3">Email: foundsouls@gmail.com</p>
+          <p class="text-sm text-gray-100">
+            Addresss: Nii Afotey Brutu II Avenue 193
+          </p>
+        </div>
+        <!-- side 2 -->
+        <div class="flex flex-col text-xl">
+          <h1 class="text-2xl mb-5">Foundation</h1>
+          <a
+            href="/public/about.html"
+            class="underline text-sm text-gray-100 mb-3"
+            >About us</a
+          >
+          <a
+            href="/public/index.html#events"
+            class="underline text-sm text-gray-100 mb-3"
+            >Events</a
+          >
+          <a href="/public/contact.html" class="underline text-sm text-gray-100"
+            >Get Involved</a
+          >
+        </div>
+      </div>
+      <div class="sm:text-center">
+        <p>&copy; Found Souls for Christ</p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
